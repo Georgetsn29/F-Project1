@@ -29,6 +29,17 @@ nav ul li {
     margin: 0 10px;
 }
 
+nav ul li a {
+    color: #000000;
+    font-family: cursive;
+    font-size: 20px;
+    transition: all .3s;
+}
+
+nav ul li a:hover {
+    color: #33333382;
+}
+
 h2 {
     margin: 20px;
     text-align: center;
@@ -46,7 +57,7 @@ h2 {
     border: 1px solid #dddddd;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0,3);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .9);
 }
 
 .card img {
@@ -73,4 +84,13 @@ h2 {
     padding: 8px;
     border-radius: 5px;
     margin: 8px;
+    border: 1.5px solid #333333;
+    font-family: cursive;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.card-link:hover {
+    background-color: transparent;
+    color: #333333;
 }
